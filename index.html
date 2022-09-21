@@ -8,7 +8,65 @@
 </head>
 <link rel="stylesheet" href="./styles.css">
 <link rel="icon" href="./assets/Treact Logo.svg">
+<script src="https://kit.fontawesome.com/2c7a2013e7.js" crossorigin="anonymous"></script>
+<script src="./index.js"></script>
 <body>
-    
+    <section id="landing" class="landing">
+        <nav>
+            <div class="row nav__row">
+                <a class="nav__logo--link" href="#landing">
+                    <img class="logo" src="./assets/Treact Logo.svg" alt="logo"> Treact
+                </a>
+                <ul class="nav__link--list">
+                    <li class="nav__link">
+                        <a class="nav__link--anchor" href="#">About</a>
+                    </li>
+                    <li class="nav__link">
+                        <a class="nav__link--anchor" href="#">Blog</a>
+                    </li>
+                    <li class="nav__link">
+                        <a class="nav__link--anchor" href="#pricing">Pricing</a>
+                    </li>
+                    <li class="nav__link">
+                        <a class="nav__link--anchor" href="#">Contact Us</a>
+                    </li>
+                    <li class="nav__link">
+                        <a class="nav__link--anchor" href="#">Login</a>
+                    </li>
+                    <li class="nav__link">
+                        <a class="nav__link--signup" href="#">Sign Up</a>
+                    </li>
+                </ul>
+                <button class="btn__menu" onclick="openMenu()">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="menu__backdrop">
+                    <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <ul class="menu__links">
+                        <li class="menu__list">
+                            <a href="#" class="nav__link--anchor" onclick="closeMenu()">About</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="#" class="nav__link--anchor" onclick="closeMenu()">Blog</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="#" class="nav__link--anchor" onclick="closeMenu()">Pricing</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="#" class="nav__link--anchor" onclick="closeMenu()">Contact Us</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="#" class="nav__link--anchor" onclick="closeMenu()">Login</a>
+                        </li>
+                        <li class="menu__list">
+                            <a href="#" class="nav__link--signup" onclick="closeMenu()">Sign Up</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </section>
 </body>
 </html>
