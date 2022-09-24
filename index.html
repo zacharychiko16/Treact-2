@@ -1,72 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Free Modern React Templates & Components for building Landing Pages and UI's - Treact</title>
-</head>
-<link rel="stylesheet" href="./styles.css">
-<link rel="icon" href="./assets/Treact Logo.svg">
-<script src="https://kit.fontawesome.com/2c7a2013e7.js" crossorigin="anonymous"></script>
-<script src="./index.js"></script>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Free Modern React Templates & Components for building Landing Pages and
+      UI's - Treact
+    </title>
+  </head>
+  <link rel="stylesheet" href="./styles.css" />
+  <link rel="icon" href="./assets/Treact Logo.svg" />
+  <script
+    src="https://kit.fontawesome.com/2c7a2013e7.js"
+    crossorigin="anonymous"
+  ></script>
+  <script src="index.js"></script>
+  <body>
     <section id="landing" class="landing">
-        <nav>
-            <div class="row nav__row">
-                <a class="nav__logo--link" href="#landing">
-                    <img class="logo" src="./assets/Treact Logo.svg" alt="logo"> Treact
-                </a>
-                <ul class="nav__link--list">
-                    <li class="nav__link">
-                        <a class="nav__link--anchor" href="#">About</a>
-                    </li>
-                    <li class="nav__link">
-                        <a class="nav__link--anchor" href="#">Blog</a>
-                    </li>
-                    <li class="nav__link">
-                        <a class="nav__link--anchor" href="#pricing">Pricing</a>
-                    </li>
-                    <li class="nav__link">
-                        <a class="nav__link--anchor" href="#">Contact Us</a>
-                    </li>
-                    <li class="nav__link">
-                        <a class="nav__link--anchor" href="#">Login</a>
-                    </li>
-                    <li class="nav__link">
-                        <a class="nav__link--signup" href="#">Sign Up</a>
-                    </li>
-                </ul>
-                <button class="btn__menu" onclick="openMenu()">
-                    <i class="fas fa-bars"></i>
-                </button>
-                <div class="menu__backdrop">
-                    <button class="btn__menu btn__menu--close" onclick="closeMenu()">
-                        <i class="fas fa-times"></i>
-                    </button>
-                    <ul class="menu__links">
-                        <li class="menu__list">
-                            <a href="#" class="nav__link--anchor" onclick="closeMenu()">About</a>
-                        </li>
-                        <li class="menu__list">
-                            <a href="#" class="nav__link--anchor" onclick="closeMenu()">Blog</a>
-                        </li>
-                        <li class="menu__list">
-                            <a href="#" class="nav__link--anchor" onclick="closeMenu()">Pricing</a>
-                        </li>
-                        <li class="menu__list">
-                            <a href="#" class="nav__link--anchor" onclick="closeMenu()">Contact Us</a>
-                        </li>
-                        <li class="menu__list">
-                            <a href="#" class="nav__link--anchor" onclick="closeMenu()">Login</a>
-                        </li>
-                        <li class="menu__list">
-                            <a href="#" class="nav__link--signup" onclick="closeMenu()">Sign Up</a>
-                        </li>
-                    </ul>
+      <nav>
+        <div class="row nav__row">
+          <a class="nav__logo--link" href="#landing">
+            <img class="logo" src="./assets/Treact Logo.svg" alt="logo" />
+            Treact
+          </a>
+          <ul class="nav__link--list">
+            <li class="nav__link">
+              <a class="nav__link--anchor" href="#">About</a>
+            </li>
+            <li class="nav__link">
+              <a class="nav__link--anchor" href="#">Blog</a>
+            </li>
+            <li class="nav__link">
+              <a class="nav__link--anchor" href="#pricing">Pricing</a>
+            </li>
+            <li class="nav__link">
+              <a class="nav__link--anchor" href="#">Contact Us</a>
+            </li>
+            <li class="nav__link">
+              <a class="nav__link--anchor" href="#">Login</a>
+            </li>
+            <li class="nav__link">
+              <a class="nav__link--signup" href="#">Sign Up</a>
+            </li>
+          </ul>
+          <button class="btn__menu" onclick="openMenu()">
+            <i class="fas fa-bars"></i>
+          </button>
+          <div class="menu__backdrop">
+            <button class="btn__menu btn__menu--close" onclick="closeMenu()">
+              <i class="fas fa-times"></i>
+            </button>
+            <ul class="menu__links">
+              <li class="menu__list">
+                <a href="#" class="nav__link--anchor" onclick="closeMenu()"
+                  >About</a
+                >
+              </li>
+              <li class="menu__list">
+                <a href="#" class="nav__link--anchor" onclick="closeMenu()"
+                  >Blog</a
+                >
+              </li>
+              <li class="menu__list">
+                <a href="#" class="nav__link--anchor" onclick="closeMenu()"
+                  >Pricing</a
+                >
+              </li>
+              <li class="menu__list">
+                <a href="#" class="nav__link--anchor" onclick="closeMenu()"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="menu__list">
+                <a href="#" class="nav__link--anchor" onclick="closeMenu()"
+                  >Login</a
+                >
+              </li>
+              <li class="menu__list">
+                <a href="#" class="nav__link--signup" onclick="closeMenu()"
+                  >Sign Up</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <header>
+        <div class="row header__row">
+          <div class="header__description">
+            <div class="header__leftside">
+              <div class="header__leftside--top">
+                <h1>
+                  Beautiful React Templates
+                  <span class="purple">for you.</span>
+                </h1>
+                <p class="header__leftside--para">
+                  Our templates are easy to setup, understand and customize.
+                  Fully modular components with a variety of pages and
+                  components.
+                </p>
+              </div>
+              <div class="header__mail-registration--input">
+                <input
+                  class="header__input"
+                  type="text"
+                  placeholder="Your E-mail Address"
+                />
+                <button class="btn__header">Get Started</button>
+              </div>
+              <div class="header__leftside-down--container">
+                <p class="header__description-customer--para">
+                  OUR TRUSTED CUSTOMERS
+                </p>
+                <img
+                  class="header__leftside--illustration"
+                  src="./assets/companies__header.png"
+                  alt=""
+                />
+              </div>
+            </div>
+            <div class="header__rightside">
+              <figure class="header__rightside--figure">
+                <img
+                  class="header__rightside--illustration"
+                  src="./assets/illustration__header.svg"
+                  alt=""
+                />
+              </figure>
+            </div>
+          </div>
+        </div>
+      </header>
+    </section>
+    <main>
+      <section id="features">
+        <div class="container">
+          <div class="row">
+            <div class="feature__title--description">
+              <h5 class="feature__first-title--description">
+                <span class="purple">FEATURES</span>
+              </h5>
+              <h2>
+                We Have amazing
+                <span class="purple">Service</span>
+              </h2>
+              <p class="features__para">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+            <div class="services">
+                <div class="service">
+                    <figure class="service__figure--description">
+                        <img src="./assets/shield-icon.svg" alt="">
+                    </figure>
+                    <div class="service__description">
+                        <span class="service__title--description">Secure</span>
+                        <p class="service__para--description">We strictly only deal with vendors that provide top notch security.</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <figure class="service__figure--description">
+                        <img src="./assets/support-icon.svg" alt="">
+                    </figure>
+                    <div class="service__description">
+                        <span class="service__title--description">24/7 Support</span>
+                        <p class="service__para--description">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <figure class="service__figure--description">
+                        <img src="./assets/customize-icon.svg" alt="">
+                    </figure>
+                    <div class="service__description">
+                        <span class="service__title--description">Customizable</span>
+                        <p class="service__para--description">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <figure class="service__figure--description">
+                        <img src="./assets/reliable-icon.svg" alt="">
+                    </figure>
+                    <div class="service__description">
+                        <span class="service__title--description">Reliable</span>
+                        <p class="service__para--description">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <figure class="service__figure--description">
+                        <img src="./assets/fast-icon.svg" alt="">
+                    </figure>
+                    <div class="service__description">
+                        <span class="service__title--description">Fast</span>
+                        <p class="service__para--description">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud..</p>
+                    </div>
+                </div>
+                <div class="service">
+                    <figure class="service__figure--description">
+                        <img src="./assets/simple-icon.svg" alt="">
+                    </figure>
+                    <div class="service__description">
+                        <span class="service__title--description">Easy</span>
+                        <p class="service__para--description">Lorem ipsum donor amet siti ceali ut enim ad minim veniam, quis nostrud.</p>
+                    </div>
                 </div>
             </div>
-        </nav>
-    </section>
-</body>
+          </div>
+        </div>
+      </section>
+      <section id="started">
+        <div class="container">
+            <div class="row quality__row">
+                <div class="quality__description">
+                    <span class="features__tag">QUALITY WORK</span>
+                    <h2 class="quality__title--description">Designed & Developed by 
+                        <span class="purple">Professionals</span>
+                    </h2>
+                    <p class="quality__para--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                         quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <a class="quality__btn" href="#">Learn More</a>
+                </div>
+                <div class="quality__right">
+                <figure class="quality__figure--illustration">
+                    <img src="./assets/qualityimage.png" class="quality__illustration" alt="">
+                </figure>
+            </div>
+            </div>
+        </div>
+      </section>
+      <section id="started">
+        <div class="row started__row">
+            <div class="started__leftside">
+                <figure class="leftside__figure--container">
+                    <img class="started__illustration" src="./assets/screen treact.png" alt>
+                </figure>
+            </div>
+            <div class="started__rightside">
+                <h5 class="started__subtitle">
+                    <span class="purple">STEPS</span>
+                </h5>
+                <h2 class="started__title--description">
+                    Easy to 
+                    <span class="purple">Get Started.</span>
+                </h2>
+                <div class="number__containers">
+                    <div class="numbers">01</div>
+                    <div class="rightside__container--description">
+                        <h5 class="subtitle__description">
+                            Register
+                        </h5>
+                        <p class="para__description">Create an account with us using Gooogle or Facebook.</p>
+                    </div>
+                    <div class="numbers">01</div>
+                    <div class="rightside__container--description">
+                        <h5 class="subtitle__description">
+                            Register
+                        </h5>
+                        <p class="para__description">Create an account with us using Gooogle or Facebook.</p>
+                    </div>
+                    <div class="numbers">01</div>
+                    <div class="rightside__container--description">
+                        <h5 class="subtitle__description">
+                            Register
+                        </h5>
+                        <p class="para__description">Create an account with us using Gooogle or Facebook.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+      <section id="started">
+        <div class="container">
+            <div class="row quality__row">
+                <div class="quality__description">
+                    <span class="features__tag">Values</span>
+                    <h2 class="quality__title--description"> We Always abide by our
+                        <span class="purple">Principles</span>
+                    </h2>
+                    <p class="quality__para--description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <div class="affordable">
+                        <h3 class="affordable__description">
+                            <i class="fa-thint fa-dollar-sign"></i>
+                            Affordable
+                        </h3>
+                        <p class="para__affordable">We promise to offer you the best rate we can - 
+                            at par with the industry standard.</p>
+                    </div>
+                    <div class="affordable">
+                        <h3 class="affordable__description">
+                            <i class="fa-thint fa-dollar-sign"></i>
+                            Affordable
+                        </h3>
+                        <p class="para__affordable">We promise to offer you the best rate we can - 
+                            at par with the industry standard.</p>
+                    </div>
+                    <a class="quality__btn" href="#">Learn More</a>
+                </div>
+                <div class="quality__right">
+                <figure class="quality__figure--illustration">
+                    <img src="./assets/qualityimage.png" class="quality__illustration" alt="">
+                </figure>
+            </div>
+            </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
