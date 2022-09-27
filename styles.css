@@ -640,6 +640,7 @@ main {
     margin: 64px 32px 0 0;
 }
 
+
 .plan__blue--container {
     background-image: linear-gradient(135deg, rgb(76, 81, 191) 0%, rgb(102, 126, 234) 100%);
 }
@@ -726,14 +727,12 @@ main {
     border-bottom: 1px solid #e5e7eb;
 }
 
-.plan__middle-title--common,
-.plan__middle-title {
+.plan__middle-title--common, .plan__middle--title {
     font-size: 20px;
     font-weight: 700;
 }
 
-.plan__content--common,
-.plan__content {
+.plan__content--common, .plan__content, .plan__content--middle {
     font-size: 20px;
     font-weight: 500;
     margin-top: 20px;
@@ -787,6 +786,141 @@ main {
 .plan__btn--red {
     background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
 }
+
+/*TESTIMONIALS*/
+
+.testi__row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.testi__left {
+    width: 50%;
+}
+
+.testi__illustration {
+    width: 100%;
+}
+
+.testi__right {
+    width: 50%;
+    padding-left: 64px;
+}
+
+.testi__subtitle {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.testi__title--description {
+    color: #243e63;
+    font-size: 48px;
+    font-weight: 900;
+    letter-spacing: 0.4px;
+    margin-top: 16px;
+}
+
+.testi__para--description {
+    font-size: 18px;
+    font-weight: 500;
+    color: #7c8ba1;
+    line-height: 1.625;
+    margin-top: 24px;
+}
+
+.testi__stars {
+    display: flex;
+    margin-top: 40px;
+    color: #fabf2a;
+    width: 20px;
+}
+
+.fa-solid, .fa-star {
+    margin-left: 3px;
+}
+
+.testi__subtitle--bottom {
+    font-size: 20px;
+    margin-top: 16px;
+    color: #243e63;
+}
+
+blockquote {
+    font-size: 16px;
+    font-weight: 500;
+    color: #4a5558;
+    margin: 16px 0 40px 0;
+}
+
+.test__bottom--container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.testi__identity--container {
+    display: flex;
+}
+
+.testi__pp {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+}
+
+.testi__name--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 24px;
+}
+
+.testi__name {
+    font-size: 20px;
+    font-weight: 700;
+    color: #243E63;
+}
+
+.testi__job--description {
+    font-size: 16px;
+    font-weight: 500;
+    color: #7c8ba1;
+}
+
+.testi__arrows--switcher {
+    display: flex;
+}
+
+.testi__left--btn, .testi__right--btn {
+    margin: 0 12px;
+    padding: 16px;
+    background-color: rgb(237, 242, 247);
+    border: none;
+    border-radius: 50px;
+    transition: all 300ms ease;
+    cursor: pointer;    
+}
+
+.testi__left--btn:hover, .testi__right--btn:hover {
+    background-color: #e2e8f0;
+    cursor: not-allowed;
+}
+
+.fa-arrow-right, .fa-arrow-left {
+    width: 16px;
+    height: 16px;    
+    color: #6415ff;
+}
+
+.testi__divider {
+    margin: 12px 0;
+    border-right: 1px #a0aec0 solid;
+    opacity: 0.25;
+}
+
+
 
 
 
