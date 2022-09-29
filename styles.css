@@ -1188,6 +1188,277 @@ blockquote {
         flex-direction: column;
     }
 
+    .plan {
+        padding: 8px 32px 0;
+        display: flex;
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+
+    .plan__bottom {
+        width: 100%;
+        padding: 32px;
+    }
+
+    .plan__bottom,
+    .plan__btn,
+    .plan__btn--red,
+    .plan__btn--white {
+        width: 100%;
+    }
+
+    .subscribe__title {
+        text-align: center;
+    }
+
+    .subscribe__buttons {
+        margin-top: 24px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    .footer__top {
+        justify-content: space-between;
+    }
+}
+
+/*Small Phones, Large Smartphones*/
+
+@media (max-width:550px) {
+    .container,
+    .quality__row,
+    .started__row,
+    .values__row,
+    .pricing__row,
+    .testi__row,
+    .subscribe__container{
+        padding: 80px 32px;
+    }
+
+    .header__leftside {
+        text-align: center;
+    }
+
+    .header__leftside {
+        text-align: center;
+    }
+
+    .header__leftside--top, 
+    .services,
+    .service,
+    .quality__row,
+    .started__row,
+    .started__rightside,
+    .number__containers,
+    .values__row,
+    .value__affordable,
+    .value__professionalism,
+    .pricing__row,
+    .testi__row,
+    .testi__identity--container,
+    .test__bottom--container,
+    .subscribe__description,
+    .subscribe__buttons,
+    .footer__bottom {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-items: center;
+    }
+
+    .header__mail-registration--input,
+    .header__leftside,
+    .btn__header,
+    .header__rightside,
+    .header__rightside--figure,
+    .quality__description,
+    .quality__right,
+    .values__rightside,
+    .plans,
+    .plan,
+    .plan__btn,
+    .plan__btn--white,
+    .plan__btn--red,
+    .testi__left {
+        width: 100%;
+    }
+
+    .btn__header {
+        position: static;
+    }
+
+    .header__leftside {
+        padding: 21px 0;
+    }
+
+    .header__description {
+        padding-top: 0px;
+    }
+
+    .header__lefside--para {
+        margin: 0;
+        padding: 21px;
+    }
+
+    .header__lefside-down--container {
+        margin: 0;
+        padding-top: 20px;
+    }
+
+    .header__leftside--illustration {
+        padding: 0 40px;
+    }
+
+    .header__rightside {
+        padding-top: 0;
+    }
+
+    .header__rightside--figure {
+        margin-top: 48px;
+    }
+
+    .service,
+    .service__img {
+        text-align: center;
+    }
+
+    .service {
+        width: 100%;
+    }
+
+    .service__description {
+        margin-left: 0;
+    }
+
+
+    .quality__row,
+    .values__row {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .values__leftisde,
+    .plan, .quality__description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 64px;
+        margin-right: auto;
+        margin-left: auto;
+        text-align: center;
+    }
+
+    .started__rightside,
+    .values__leftisde {
+        width: 100%;
+        text-align: center;
+    }
+
+    .started__rightside {
+        padding-left: 0;
+    }
+
+    .rightside__container--description,
+    .para__description {
+        margin: 12px 0 0 0 ;
+    }
+
+    .value__affordable {
+        margin-right: 0;
+    }
+
+    .plans {
+        padding: 0 32px;;
+    }
+
+    .testi__right {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0;
+        margin-top: 64px;
+        width: 100%;
+    }
+
+    blockquote {
+        margin-bottom: 32px;
+    }
+    
+    .testi__stars {
+        display: block;
+    }
+
+    .testi__name--container {
+        margin: 8px 0 0;
+    }
+
+    .testi__arrows--switcher,
+    .footer__para--description,
+    .footer__social-medias {
+        margin-top: 32px;
+    }
+
+    .subscribe__container {
+        margin: 0;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+
+    .subscribe__title {
+        padding: 0;
+        font-size: 24px;
+    }
+
+    .subscribe__buttons,
+    .footer__container---all {
+        padding: 0;
+    }
+
+    .subsribe__left--btn {
+        margin-right: 0;
+    }
+
+    .subscribe__right--btn {
+        margin-top: 16px;
+    }
+
+    .subscribe__container {
+        margin-bottom: 80px;
+    }
+
+    .footer__container {
+        padding: 50px 32px;
+        width: 100%;
+    }
+
+    .footer__top {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .footer_links--container {
+        width: calc(100%/4);
+    }
+
+    .footer__legal {
+        width: 100%;
+    }
+
+    .footer__link {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .footer__para--description {
+        font-size: 16px;
+    }
+
 
 }
 
